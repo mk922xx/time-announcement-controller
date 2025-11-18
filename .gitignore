@@ -1,17 +1,21 @@
-.DS_Store
+# macOS
 .DS_Store
 # Xcode / Swift build
 .build/
 build/
+DerivedData/
 *.xcworkspace/xcuserdata/
 *.xcuserstate
 *.xcuserdata/
+# Swift / Xcode intermediates
 *.dSYM
 *.swiftmodule
 *.swiftsourceinfo
 *.o
 *.swiftdeps
-# macOS
-.DS_Store
-DerivedData/
+# Archives / products
+*.xcarchive
+*.ipa
+# Generic
+*.log
 .gitignore.bak
