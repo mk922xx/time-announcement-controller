@@ -1,4 +1,5 @@
-# 時間読み上げ用ヘルパーアプリ
+# Time Announcement Helper
+## 時間読み上げ用ヘルパーアプリ
 
 macOS 26.1 (Apple Silicon) で動作する、既存の読み上げコマンドをラップして音量と出力先を制御するコマンドラインツールです。
 既存の読み上げスクリプト（Automator アプリなど）を実行する前に音量を一時的に変更し、実行後に元の音量に戻します。
@@ -155,3 +156,6 @@ swift build -c release
 # 実行テスト
 swift run announce-helper --volume 30 -- say "テスト"
 ```
+---
+
+作者: Motonari Koyama / relation*
