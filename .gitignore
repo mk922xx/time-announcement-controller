@@ -1,2 +1,16 @@
 .DS_Store
 .DS_Store
+# Xcode / Swift build
+.build/
+build/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcuserdata/
+*.dSYM
+*.swiftmodule
+*.swiftsourceinfo
+*.o
+*.swiftdeps
+# macOS
+.DS_Store
+DerivedData/
