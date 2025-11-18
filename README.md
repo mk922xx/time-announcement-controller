@@ -158,4 +158,13 @@ swift run announce-helper --volume 30 -- say "テスト"
 ```
 ---
 
+## バージョンと変更履歴
+
+### v0.1.0
+- テスト実行ボタン（手動での時刻読み上げテスト）
+- 音量調整付きヘルパー `announce-helper` の初期実装
+  - 一時的な音量変更 (`--volume`)
+  - 実行後に元の音量へ復元
+
+---
 作者: Motonari Koyama / relation*
